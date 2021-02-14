@@ -1,13 +1,18 @@
-<form action="<%= users_path %>" method="post" accept-charset="UTF-8">
-  <label for="email">email</label>
-  <input type="email" name="user[email]" id="email" value="" />
+<%= form_tag users_path do %>
+  <div class='field'>
+    <%= label_tag 'user[email]' %>
+    <%= text_field_tag 'user[email]' %>
+  </div>
 
-  <label for="username">username</label>
-  <input type="text" name="user[username]" id="username" value="" />
+  <div class='field'>
+    <%= label_tag 'user[username]' %>
+    <%= text_field_tag 'user[username]' %>
+  </div>
 
-  <label for="password">password</label>
-  <input type="password" name="user[password]" id="password" value="" />
+  <div class='field'>
+    <%= label_tag 'user[password]' %>
+    <%= text_field_tag 'user[password]' %>
+  </div>
 
-  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>" >
-  <input type="submit" name="commit" id="submit" value="Create User">
-</form>
+  <%= submit_tag 'Create User' %>
+<% end %>
