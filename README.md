@@ -11,3 +11,6 @@ This is part of the Forms Project in The Odin Project’s Ruby on Rails Curricul
     - Handle form submission in UsersController#create
 3. Refactor params access using strong params
 `params.require(:user).permit(:email, :username, :password)`
+4. Refactor HTML form to `form_tag` 
+5. Add Bootstrap and style
+    - Ref CDN in application.html.erb
