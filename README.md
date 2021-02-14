@@ -9,3 +9,5 @@ This is part of the Forms Project in The Odin Project’s Ruby on Rails Curricul
     - Add form in app/views/users/new.html.erb
     - Create system test in rspec: `rails g rspec:system creating_users`
     - Handle form submission in UsersController#create
+3. Refactor params access using strong params
+`params.require(:user).permit(:email, :username, :password)`
