@@ -14,3 +14,4 @@ This is part of the Forms Project in The Odin Project’s Ruby on Rails Curricul
 4. Refactor HTML form to `form_tag` 
 5. Add Bootstrap and style
     - Ref CDN in application.html.erb
+6. Refactor to use `form_with`
