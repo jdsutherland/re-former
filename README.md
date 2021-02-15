@@ -1,6 +1,6 @@
 # Re-Former
 
-This is part of the Forms Project in The Odin Project’s Ruby on Rails Curriculum. Find it at http://www.theodinproject.com
+An exercise in grokking Rails form helpers. Allows create/update on User resource. Part of the Forms Project in The Odin Project’s Ruby on Rails Curriculum.
 
 ## Recap
 1. Generate User model
