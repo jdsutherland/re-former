@@ -34,6 +34,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 4.0'
   gem 'launchy'
   gem 'pry-byebug'
+  gem 'factory_bot_rails'
 end
 
 group :test do
