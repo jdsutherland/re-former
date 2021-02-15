@@ -17,3 +17,4 @@ This is part of the Forms Project in The Odin Project’s Ruby on Rails Curricul
 6. Refactor to use `form_with`
 7. Add editing a user 
     - Extract form partial
+8. Display form errors (yanked from Rails Guide)
